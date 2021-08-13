@@ -1,0 +1,23 @@
+REFERENCE WHERE I TOOK INFORMATION FROM ^1
+1)
+full sentences, make clear points, use context 
+kanban planning - to do, doing, done
+audience aimed at:
+using visual studio code: html and css to make it accessible, consistent theme
+2)
+planning - trello board - sketched out layout before? - take responsibility for all aspects
+resaources - website examples - inspirations, ideas, w3schools for help or youtube videos
+3)
+describe about GDPR
+so peeps can't claim their work is mine and monetize it
+stealing artwork >:(
+cease and dissist order - fines
+what would happen if you broke GDPR 
+mailing list/guest book but following GDPR 
+4)
+review: VSC - live server, auto complete - describe how I've done it in past and how long the setup was, GIMP - for editing, trello, github
+5)
+To test website - live server and different browsers to make sure it's consistent on each browser and everything works - chrome, ie, edge, firefox
+files created .html files and .css file they standard, imgs aswell
+'alt' for accessibility - to give as much as the same experience for peeps with visual impairments - can describe it for other peeps
+'colorblind mode'? - alot of red/green mainly is why i picked certain colour scheme

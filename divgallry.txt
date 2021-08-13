@@ -1,0 +1,105 @@
+/*For the gallery on main page*/
+div.gallery
+{
+    border:1px solid #cccccc;
+}
+
+/*Give the images a border when hovering over them*/
+div.gallery:hover 
+{
+    border: 1px solid black;
+}
+/*resizes images based on size of screen*/
+div.gallery img 
+{
+    width: 100%;
+    height: auto;
+}
+
+/*Puts the image description if one in a nice little box under the picture*/
+div.imgdesc 
+{
+    border:2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+/*selects everything puts it in a box*/ 
+/*WHATS IN THE BOX*/
+* {
+    box-sizing: border-box;
+  }
+
+.responsive
+{ 
+    padding: 0 6px;
+    float: left;
+    width: 24.999999%;
+    margin-left:100px;
+    margin-right:50px;
+    margin-bottom:25px;
+}
+
+@media only screen and (max-width: 700px) 
+{
+    .responsive 
+    {
+      width: 49.999999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) 
+{
+    .responsive 
+    {
+      width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+<div class="responsive">
+        <div class="gallery">
+                <img src="/image/CatsCollage.png" alt="An image for cats">
+                <div class="imgdesc">A random image exists</div>
+        </div>        
+    </div>
+    
+    <div class="responsive">
+        <div class="gallery">
+                <img src="/image/Tigger.jpg" alt="An image for cats">
+                <div class="imgdesc">A random image exists</div>
+        </div>        
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+                <img src="/image/Tigger2.jpg" alt="An image for cats">
+                <div class="imgdesc">A random image exists</div>
+        </div>        
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+                <img src="/image/Tigger-min.jpg" alt="An image for cats">
+                <div class="imgdesc">A random image exists</div>
+        </div>        
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+                <img src="/image/3.jpg" alt="An image for cats">
+                <div class="imgdesc">A random image exists</div>
+        </div>        
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+                <img src="/image/Tigger-min.jpg" alt="An image for cats">
+                <div class="imgdesc">A random image exists</div>
+        </div>        
+    </div>

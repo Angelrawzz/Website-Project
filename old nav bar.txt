@@ -1,0 +1,59 @@
+.navbar
+{
+    display:flex;    
+    justify-content: center;
+    flex-direction: row;
+    padding:5px 10px 10px 10px;
+}
+.box
+{        
+    min-width: 20%;
+    text-align: center;
+    font-size:30px;
+    padding:20px;
+
+}
+
+.boxm
+{
+    background-color: blueviolet;
+    border-style: solid;
+}
+
+.boxm:hover
+{
+    background-color: darkblue;
+    Color:white;
+} 
+
+.box2 
+{
+    background: blueviolet;
+    border-style: solid;
+}
+.box2:hover
+{
+    background-color: darkblue;
+    Color:white;
+}
+
+.box3 
+{
+    background: blueviolet;
+    border-style: solid;
+}
+.box3:hover
+{
+    background-color: darkblue;
+    Color:white;
+}
+.box4 
+{
+    background:blueviolet;
+    border-style:solid;
+}
+.box4:hover
+{
+    background-color: darkblue;
+    Color:white;
+} 
