@@ -191,6 +191,8 @@ html
 .pcard /*The white background part behind the photo*/
 {
     background-color: white;
+    width: 2540px;
+    max-width: 108%;
     padding-top:20px;
     margin-top: 20px;
     margin-left:25px;
@@ -203,10 +205,37 @@ html
 .pcard img
 {    
     padding-left:25px;
-    max-height: 500px; 
-    max-width: 500px;     
-    width:95%;
-    height:auto;
+    max-height: 500px;; 
+    max-width: 1920px;     
+    width:45%;
+    height:1080px;
+}
+
+iframe
+{
+    max-width:45%;
+    max-height:500px;
+}
+
+.pcard a 
+{
+    color:blue;
+    text-decoration: underline;
+}
+.pcard img:hover
+{
+    margin-left:25px;
+    padding:1px;
+    border-style:solid;
+    border-color:green;
+    border-width:medium;
+    width:45%;
+}
+
+.pcontainer
+{
+    margin-left:5px;
+    text-align: left;
 }
 
 .card /*The white background part behind the photo*/
@@ -272,4 +301,10 @@ h2
     text-align:left;
     font-size:18px;
     font-family: sans-serif;
+}
+
+
+iframe
+{
+    margin-left:25px;
 }
